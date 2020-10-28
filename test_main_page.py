@@ -1,5 +1,6 @@
 from page.main_page import MainPage
 from page.base_page import BasePage
+from page.locators import MainPageLocators
 
 def test_guest_can_go_to_login_page(browser):
     link = "http://selenium1py.pythonanywhere.com/"
